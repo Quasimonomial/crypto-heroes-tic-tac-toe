@@ -6,6 +6,10 @@ contract TicTacToe {
 	// 0 represents a blank state, 1 represets an X, 2 represents an O.  X plays first
 
 
+	function makeMove(uint piece, uint8 posistion) public {
+		gameBoard[posistion] = piece;
+	}
+
 	// Runs on Contract initilization
 	function TicTacToe() {
 
