@@ -1,0 +1,27 @@
+{
+  "name": "cryptoheroes-ttt",
+  "version": "1.0.0",
+  "description": "Tick Tac Toe for Cryptoheroes Hackathon",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.0.3",
+    "truffle": "^4.0.3",
+    "web3": "^1.0.0-beta.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quasimonomial/crypto-heroes-tic-tac-toe.git"
+  },
+  "author": "Travis Herrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quasimonomial/crypto-heroes-tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/Quasimonomial/crypto-heroes-tic-tac-toe#readme"
+}
