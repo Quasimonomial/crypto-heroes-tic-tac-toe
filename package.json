@@ -5,6 +5,12 @@
   "directories": {
     "test": "test"
   },
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "truffle": "truffle",
+    "ganache-cli": "ganache-cli --version"
+  },
   "dependencies": {
     "ganache-cli": "^6.0.3",
     "truffle": "^4.0.3",
